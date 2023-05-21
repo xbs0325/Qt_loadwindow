@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myRegister</class>
+ <widget class="QMainWindow" name="myRegister">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>305</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>305</width>
+    <height>240</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>305</width>
+    <height>240</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>注册</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>201</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelPassword">
+       <property name="text">
+        <string>密码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditPassword">
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditPassword2">
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelPassword2">
+       <property name="text">
+        <string>再次确认</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEditAccount"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelAccount">
+       <property name="text">
+        <string>账号</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>140</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButtonCancel">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButtonRegister">
+       <property name="text">
+        <string>注册</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>305</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
